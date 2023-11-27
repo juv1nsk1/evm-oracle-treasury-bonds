@@ -1,7 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract Titulos {
+import "./Auditor.sol"; 
+import "./Assinatura.sol";
+
+contract Titulos is Auditor, Assinatura {
     struct PrecoTitulo {
         uint16 dia;
         uint16 valorMedio;

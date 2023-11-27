@@ -12,7 +12,7 @@ contract Biblioteca {
         uint16 melhorOfertaVenda;
         uint16 transacoesParaPF;
         uint16 transacoesParaPJ;
-    }
+    } 
     
     // Mapeamento de códigos ISIN para códigos internos de títulos.
     mapping(bytes13 => uint16) public ListaISIN;
