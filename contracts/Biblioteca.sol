@@ -5,13 +5,13 @@ contract Biblioteca {
     // Estrutura de dados para empacotar as informações geradas pelas corretoras
     struct PacoteTitulo {
         string isin;
-        uint16 valorMedio;
-        uint16 valorUltimaTransacao;
-        uint16 volume;
-        uint16 melhorOfertaCompra;
-        uint16 melhorOfertaVenda;
-        uint16 transacoesParaPF;
-        uint16 transacoesParaPJ;
+        uint256 valorMedio;
+        uint256 valorUltimaTransacao;
+        uint256 volume;
+        uint256 melhorOfertaCompra;
+        uint256 melhorOfertaVenda;
+        uint256 transacoesParaPF;
+        uint256 transacoesParaPJ;
     } 
     
     // Mapeamento de códigos ISIN para códigos internos de títulos.

@@ -8,8 +8,8 @@ contract Auditor is Biblioteca, Corretoras {
 
     // Estrutura para armazenar limites de preço para cada código de título.
     struct PrecoLimite {
-        uint16 minimo;
-        uint16 maximo;
+        uint256 minimo;
+        uint256 maximo;
     }
 
     // Mapeamento de códigos de títulos para limites de preço.
@@ -21,7 +21,7 @@ contract Auditor is Biblioteca, Corretoras {
      * @param _precoMinimo O valor mínimo permitido para o título.
      * @param _precoMaximo O valor máximo permitido para o título.
      */
-    function definirLimite(string calldata _isin, uint16 _precoMinimo, uint16 _precoMaximo) public onlyOwner {
+    function definirLimite(string calldata _isin, uint256 _precoMinimo, uint256 _precoMaximo) public onlyOwner {
         // Obtém o código interno do título com base no ISIN.
         uint16 codigoTitulo = obterCodigoISIN(_isin);
         
@@ -36,7 +36,7 @@ contract Auditor is Biblioteca, Corretoras {
      * @param _corretora O código da corretora que envia a atualização.
      * @return _aprovado Um booleano indicando se o valor está dentro dos limites permitidos.
      */
-    function auditarValor(uint16 _codigo, uint16 _valor, uint16 _corretora) internal returns (bool) {
+    function auditarValor(uint16 _codigo, uint256 _valor, uint16 _corretora) internal returns (bool) {
         // Obtém os limites de preço para o título.
         PrecoLimite memory limite = limites[_codigo];
         
@@ -54,5 +54,5 @@ contract Auditor is Biblioteca, Corretoras {
     }
 
     // Evento emitido quando uma auditoria reprova um valor.
-    event AudtiorReprovacao(uint16 corretora, uint16 titulo, uint16 valor);
+    event AudtiorReprovacao(uint16 corretora, uint16 titulo, uint256 valor);
 }

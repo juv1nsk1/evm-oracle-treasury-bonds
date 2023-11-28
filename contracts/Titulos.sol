@@ -6,14 +6,14 @@ import "./Assinatura.sol";
 
 contract Titulos is Auditor, Assinatura {
     struct PrecoTitulo {
-        uint16 dia;
-        uint16 valorMedio;
-        uint16 valorUltimaTransacao;
-        uint16 volume;
-        uint16 melhorOfertaCompra;
-        uint16 melhorOfertaVenda;
-        uint16 transacoesParaPF;
-        uint16 transacoesParaPJ;
+        uint256 dia;
+        uint256 valorMedio;
+        uint256 valorUltimaTransacao;
+        uint256 volume;
+        uint256 melhorOfertaCompra;
+        uint256 melhorOfertaVenda;
+        uint256 transacoesParaPF;
+        uint256 transacoesParaPJ;
     }
 
     // Mapeamento de códigos de títulos para informações de preço.
@@ -47,7 +47,7 @@ contract Titulos is Auditor, Assinatura {
         uint16 codigoTitulo = obterCodigoISIN(_titulo.isin);
 
         // Obtém a data atual.
-        uint16 dataAtual = obterDiaAtual();
+        uint256 dataAtual = obterDiaAtual();
 
         // Obtém as informações de preço do título atual.
         PrecoTitulo memory tituloAtual = listaTitulos[codigoTitulo];
@@ -73,23 +73,23 @@ contract Titulos is Auditor, Assinatura {
         } else {
 
             // Atualizar volumes
-            uint16 novoVolume = tituloAtual.volume + _titulo.volume;
-            uint16 transacoesParaPF = tituloAtual.transacoesParaPF + _titulo.transacoesParaPF;
-            uint16 transacoesParaPJ = tituloAtual.transacoesParaPJ + _titulo.transacoesParaPJ;
+            uint256 novoVolume = tituloAtual.volume + _titulo.volume;
+            uint256 transacoesParaPF = tituloAtual.transacoesParaPF + _titulo.transacoesParaPF;
+            uint256 transacoesParaPJ = tituloAtual.transacoesParaPJ + _titulo.transacoesParaPJ;
 
             // Calcular preço médio.
-            uint16 novoValorMedio = ((tituloAtual.volume * tituloAtual.valorMedio) + (_titulo.volume * _titulo.valorMedio)) / novoVolume;
+            uint256 novoValorMedio = ((tituloAtual.volume * tituloAtual.valorMedio) + (_titulo.volume * _titulo.valorMedio)) / novoVolume;
 
             // Comparar melhor e pior oferta.
-            uint16 melhorOfertaCompra = _titulo.melhorOfertaCompra;
-            uint16 melhorOfertaVenda = _titulo.melhorOfertaVenda;
+            uint256 melhorOfertaCompra = _titulo.melhorOfertaCompra;
+            uint256 melhorOfertaVenda = _titulo.melhorOfertaVenda;
 
             if (_titulo.melhorOfertaCompra > tituloAtual.melhorOfertaCompra)
                 melhorOfertaCompra = _titulo.melhorOfertaCompra;
             if (_titulo.melhorOfertaVenda < tituloAtual.melhorOfertaVenda)
                 melhorOfertaVenda = _titulo.melhorOfertaVenda;
 
-            uint16 valorUltimaTransacao = tituloAtual.valorUltimaTransacao;
+            uint256 valorUltimaTransacao = tituloAtual.valorUltimaTransacao;
             
             // Atualiza valor da ultima transacao se ele for maior que zero
             if (_titulo.valorUltimaTransacao > 0) valorUltimaTransacao=_titulo.valorUltimaTransacao;
