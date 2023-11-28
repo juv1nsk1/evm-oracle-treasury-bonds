@@ -10,7 +10,8 @@ Para garantir a integridade e a governança do contrato, implementamos a bibliot
 ### Proteção contra Ataques de Reentrada com ReentrancyGuard
 Um dos riscos comuns em contratos inteligentes é o ataque de reentrada, onde um invasor tenta executar múltiplas chamadas à mesma função antes que a execução anterior seja concluída. Para mitigar esse risco, implementamos a biblioteca ReentrancyGuard da OpenZeppelin. Essa biblioteca adiciona proteções críticas às funções de pagamento, impedindo ataques de reentrada e assegurando a integridade das transações.
 
-Auditoria com Mythril
+## Auditoria com Mythril
+
 Realizamos uma auditoria abrangente do nosso contrato utilizando a ferramenta Mythril, uma ferramenta de análise de segurança para bytecode da EVM. Essa ferramenta detecta vulnerabilidades de segurança em contratos inteligentes construídos para Ethereum, Hedera, Quorum, Vechain, Roostock, Tron e outras blockchains compatíveis com a EVM. Utiliza técnicas como execução simbólica, solução de SMT e análise de contaminação para detectar uma variedade de vulnerabilidades de segurança.
 
 ## Relatório da Auditoria com Mythril:
