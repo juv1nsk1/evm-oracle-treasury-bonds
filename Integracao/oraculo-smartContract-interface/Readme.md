@@ -14,6 +14,7 @@ O contrato TesouroOracle é responsável por fornecer informações sobre títul
 
 ```solidity
 function obterPrecoAtual(string calldata _isin) external view returns (uint256, uint256);
+```
 
 Este método permite obter o preço atual de um título com base no seu código ISIN. Retorna o preço médio do título e o volume negociado no dia.
 
@@ -22,6 +23,7 @@ Este método permite obter o preço atual de um título com base no seu código 
 
 ```solidity
 function obterOfertas(string calldata _isin) external view returns (uint256, uint256, uint256, uint256, uint256, uint256, uint256);
+```
 
 Este método permite obter as informações de ofertas de um título com base no seu código ISIN. Retorna o dia da última atualização do título, o preço atual do título, o volume de títulos disponíveis, o melhor preço de oferta de compra, o melhor preço de oferta de venda, a quantidade de transações realizadas para PF (pessoa física) e a quantidade de transações realizadas para PJ (pessoa jurídica).
 
@@ -29,8 +31,8 @@ Este método permite obter as informações de ofertas de um título com base no
 ### `assinarServico`
 
 ```solidity
-
 function assinarServico(address _endereco) external payable;
+```
 
 Este método permite que o consumidor assine o serviço, fornecendo o pagamento necessário. É necessário enviar Ether junto com a chamada da função para pagamento do serviço.
 
