@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  max-width: 80rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  @include responsive(1320px) {
+    max-width: 1140px;
+  }
+  @include responsive(1140px) {
+    max-width: 1080px;
+  }
+  @include responsive(992px) {
+    max-width: 920px;
+  }
+  @include responsive(768px) {
+    max-width: 736px;
+  }
+  @include responsive(390px) {
+    max-width: 364px;
+    padding: 0 1.25rem;
+  }
+}
+
+.sidebar-container {
+  width: 100%;
+  max-width: 16rem;
+  height: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 1%;
+}

@@ -1,0 +1,28 @@
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&family=IBM+Plex+Sans:wght@300;400;600;700&display=swap');
+
+@import url('https://use.typekit.net/rax4wqy.css');
+
+@import 'variables';
+@import 'reset';
+@import 'mixins';
+// @import 'grid';
+@import 'titles';
+@import 'home';
+
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import '../node_modules/bootstrap/scss/functions';
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+// Then add additional custom code here
+
+// importing core styling file
+@import '../assets/fontawessome/scss/fontawesome.scss';
+
+// our project needs Solid + Brandss
+@import '../assets/fontawessome/scss/solid.scss';
+@import '../assets/fontawessome/scss/brands.scss';
