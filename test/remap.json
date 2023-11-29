@@ -1,0 +1,9 @@
+{
+"remappings": [ 
+    "@openzeppelin/contracts/utils/cryptography/=./node_modules/@openzeppelin/contracts/utils/cryptography/" ,
+    "@openzeppelin/contracts/access/=./node_modules/@openzeppelin/contracts/access/" ,
+    "@openzeppelin/contracts/security/=./node_modules/@openzeppelin/contracts/security/" ,
+    "@openzeppelin/contracts/utils/=./node_modules/@openzeppelin/contracts/utils/" 
+    
+]
+}
