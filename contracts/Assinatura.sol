@@ -6,7 +6,7 @@ contract Assinatura {
     uint256 public valorDaAssinatura = 0;
 
     // Mapeamento de endereços para datas de expiração da assinatura.
-    mapping(address => uint256) public listaAssinantes;
+    mapping(address => uint256) listaAssinantes;
 
     /**
      * @notice Adiciona o endereço do contrato à lista de assinantes e registra o pagamento da assinatura.

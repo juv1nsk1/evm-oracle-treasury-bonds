@@ -5,6 +5,8 @@ import "./Auditor.sol";
 import "./Assinatura.sol";
 
 contract Titulos is Auditor, Assinatura {
+
+    // Mantendo mesma tipagem para ganho de eficiência no armazenamento da sctruct na blockchain
     struct PrecoTitulo {
         uint256 dia;
         uint256 valorMedio;
