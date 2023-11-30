@@ -13,3 +13,9 @@ Este projeto fornece uma biblioteca que abstrai a complexidade do processo de co
 
 ### importacao-lib 
 
+
+# ABI para desenvolvimento de dApps
+
+O a ABI descreve a estrutura binária das funções, eventos e dados de um contrato inteligente para permitir a interação entre dApps e aplicações backend.
+
+## dappis-ABIs
