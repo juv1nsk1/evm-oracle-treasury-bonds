@@ -13,3 +13,8 @@ $ npx hardhat test
 
   6 passing (2s)
   ```
+
+
+### remap para ferramenta de auditoria
+
+$ myth analyze contracts/TesouroOracle.sol --solc-json test/remap.json
