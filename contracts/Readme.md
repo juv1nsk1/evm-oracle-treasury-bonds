@@ -28,6 +28,7 @@ Contém funções adicionais para otimização do contrato, incluindo o controle
 
 
 ## Como Usar
+
 1. Clone o Repositório:
 
 ```bash
@@ -35,9 +36,7 @@ Copy code
 git clone https://github.com/seu-usuario/oraculo-tesouro.git
 ```
 
-2. Configuração do Ambiente de Desenvolvimento:
-
-. Instale as dependências necessárias (hardhat e openZeppelin)
+2. Instale as dependências necessárias (hardhat e openZeppelin)
 
 3. Integre o contrato com outras aplicações, como UI, DApps ou scripts seguindo a documentação de integração.
 
