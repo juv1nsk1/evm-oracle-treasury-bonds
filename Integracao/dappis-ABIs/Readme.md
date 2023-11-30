@@ -69,9 +69,9 @@ function assinarServico(address _endereco) public payable {}
 function atualizaTitulos(uint16 _codigoCorretora, uint256 _dataDeGeracao, PacoteTitulo[] calldata _pacoteDeTitulos) public somenteCorretor (_codigoCorretora) {}
 ```
 
-##Eventos
+## Eventos
 
-ventos em contratos inteligentes são mecanismos usados para emitir informações que podem ser capturadas fora da blockchain. Eles são especialmente úteis para notificar usuários ou outros contratos sobre ocorrências específicas dentro do contrato. 
+Eventos em contratos inteligentes são mecanismos usados para emitir informações que podem ser capturadas fora da blockchain. Eles são especialmente úteis para notificar usuários ou outros contratos sobre ocorrências específicas dentro do contrato. 
 
 `AtualizacaoDeTitulo`
 
