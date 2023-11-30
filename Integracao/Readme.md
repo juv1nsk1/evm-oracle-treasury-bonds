@@ -4,7 +4,7 @@
 
 Esta é a interface do contrato TesouroOracle que define métodos que podem ser utilizados para interagir com o contrato principal, permitindo a obtenção de informações de preços e ofertas, bem como a assinatura do serviço.
 
-## oraculo-smartContract-interface
+### oraculo-smartContract-interface
 
 
 ## Biblioteca pra integração com backend - Typescript
@@ -18,4 +18,4 @@ Este projeto fornece uma biblioteca que abstrai a complexidade do processo de co
 
 O a ABI descreve a estrutura binária das funções, eventos e dados de um contrato inteligente para permitir a interação entre dApps e aplicações backend.
 
-## dappis-ABIs
+### dappis-ABIs
