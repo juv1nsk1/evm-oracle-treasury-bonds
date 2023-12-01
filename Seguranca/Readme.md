@@ -2,7 +2,7 @@
 A segurança é uma prioridade fundamental em nosso contrato, e implementamos diversas medidas para garantir uma operação robusta e protegida. Destacamos algumas das principais práticas e bibliotecas que utilizamos para fortalecer a segurança do nosso contrato:
 
 ## OpenZeppelin: Uma Base Segura
-Para construir a base do nosso contrato, contamos com a confiável biblioteca OpenZeppelin, que é amplamente reconhecida e auditada pela comunidade de desenvolvimento blockchain. A OpenZeppelin fornece implementações padrão de contratos inteligentes e padrões de segurança, o que contribui significativamente para a integridade e segurança do nosso código.
+Para construir a base do nosso contrato, contamos com a confiável biblioteca OpenZeppelin, que é amplamente reconhecida e auditada pela comunidade de desenvolvimento blockchain. A OpenZeppelin fornece implementações padrão de contratos inteligentes e padrões de segurança, o que contribuem significativamente para a integridade e segurança do nosso código.
 
 ### Controle de Propriedade com Ownable
 Para garantir a integridade e a governança do contrato, implementamos a biblioteca Ownable da OpenZeppelin. Essa biblioteca permite um controle seguro da propriedade do contrato, restringindo o acesso a funções críticas apenas ao proprietário designado. Isso adiciona uma camada adicional de segurança, garantindo que apenas entidades autorizadas possam realizar modificações significativas.
