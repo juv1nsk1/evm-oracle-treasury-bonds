@@ -26,6 +26,8 @@ Reúne funções para o gerenciador do oráculo definir valores, regras e realiz
 ### Biblioteca.sol
 Contém funções adicionais para otimização do contrato, incluindo o controle de códigos ISIN.
 
+### Bibliotecas openzeppelin utilizadas
+Ownable, ReentrancyGuard e Context
 
 ## Como Usar
 
