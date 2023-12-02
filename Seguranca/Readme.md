@@ -1,5 +1,5 @@
 # Segurança do Contrato
-A segurança é uma prioridade fundamental em nosso contrato, e implementamos diversas medidas para garantir uma operação robusta e protegida. Destacamos algumas das principais práticas e bibliotecas que utilizamos para fortalecer a segurança do nosso contrato:
+A segurança é uma prioridade em nosso contrato, e implementamos diversas medidas para garantir uma operação robusta e protegida. Destacamos algumas das principais práticas e bibliotecas utilizadas para garantiar a reputação do Oráculo.
 
 ## OpenZeppelin: Uma Base Segura
 Para construir a base do nosso contrato, contamos com a confiável biblioteca OpenZeppelin, que é amplamente reconhecida e auditada pela comunidade de desenvolvimento blockchain. A OpenZeppelin fornece implementações padrão de contratos inteligentes e padrões de segurança, o que contribuem significativamente para a integridade e segurança do nosso código.
