@@ -1,18 +1,11 @@
 const now = new Date();
-  const dateTimeString = now.toISOString();
-  const formattedDateTimeString = now.toLocaleString();
-  const timeElement = document.getElementById("current-time");
-  const diaSemana = now.getDay();
-  timeElement.textContent = formattedDateTimeString;
-  timeElement.setAttribute("datetime", dateTimeString);
+const dateTimeString = now.toISOString();
+const formattedDateTimeString = now.toLocaleString();
+const timeElement = document.getElementById("current-time");
+const diaSemana = now.getDay();
+timeElement.textContent = formattedDateTimeString;
+timeElement.setAttribute("datetime", dateTimeString);
 
-//   sidebar
-
-// Sidebar toggle
-const sidebarToogle = document.querySelector("#sidebar-toggle");
-sidebarToogle.addEventListener("click", function(){
-    document.querySelector("#sidebar").classList.toggle("collapsed");
-});
 
 
 
@@ -24,7 +17,7 @@ var options = {
   },
   series: [{
     name: 'valor',
-    data: [1530,1580.88,1135,1450,1449,1260]
+    data: [1530, 1580.88, 1135, 1450, 1449, 1260]
   }],
   plotOptions: {
     bar: {
@@ -58,17 +51,10 @@ var options = {
     }
   },
   xaxis: {
-    categories: [2032,2036,2038,2040,2042,2044]
+    categories: [2032, 2036, 2038, 2040, 2042, 2044]
   }
 }
 
-var chart = new ApexCharts(document.querySelector("#chart"), options);
+const chart = new ApexCharts(document.querySelector("#chart"), options);
 
 chart.render();
-
-
-const myModal = document.querySelector('#myModal')
-
-myModal.addEventListener('show.bs.modal', event => {
-  return event.preventDefault() // stops modal from being shown
-})

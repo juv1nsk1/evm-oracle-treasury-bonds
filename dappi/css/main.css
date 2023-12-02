@@ -158,7 +158,7 @@ body {
 #sidebar {
   max-width: 256px;
   min-width: 256px;
-  background: #192038;
+  background: #303953;
   transition: all 0.4s ease-in-out;
 }
 #sidebar .sidebar-item {
@@ -202,6 +202,9 @@ body {
   font-size: 0.625rem;
   letter-spacing: -0.3px;
   line-height: 0.525rem;
+}
+#sidebar button {
+  color: #444d68;
 }
 
 .main {

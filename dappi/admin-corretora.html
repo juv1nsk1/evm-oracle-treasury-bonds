@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRS Oráculo</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon" />
+  </head>
+  <body class="bg-black">
+    <header
+      class="nav navbar bg-dark sticky-top flex-md-nowrap align-items-center p-3 gap-3 shadow"
+    >
+    <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+    <img src="img/logo.svg" alt="TSR Oráculo" />
+      
+      <div class="d-flex w-100 pe-3 align-items-end justify-content-end">
+        <div class="d-flex flex-row align-middle gap-2">
+          <li>
+            <span><time datetime="" id="current-time"></time></span>
+          </li>
+          <!-- <li>
+            <span class="badge bg-success text-bg-light">Mercado aberto</span>
+          </li> -->
+        </div>
+      </div>
+    </header>
+
+    <div class="wrapper" data-bs-theme="dark">
+      <aside class="offcanvas text-bg-dark offcanvas-start" id="sidebar">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="img/logo.svg" alt="TSR Oraculo"></h5>
+          <button type="button" class="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="d-flex flex-column p-2">
+          <ul class="sidebar-nav pt-2">
+            <li class="sidebar-title p-2">Opções de menu</li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link" aria-current="page">
+                <i class="fa-solid fa-chart-line"></i>
+                <span class="ps-2">Painel</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="admin.html" class="sidebar-link">
+                <i class="fa-solid fa-user-gear"></i>
+                <span class="ps-2">Admin</span>
+              </a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">
+                <i class="fa-solid fa-unlock"></i>
+                <span class="ps-2">Seja Pro</span>
+              </a>
+            </li>
+            <div class="p-3">
+              <span class="legenda text-muted">
+                *O Serviço de assinatura diz respeito ao smart contract.
+              </span>
+            </div>
+          </ul>
+
+          <div class="bottom d-flex flex-column gap-1 p-2">
+            <input
+              class="form-control bg-dark form-control-dark w-1000"
+              type="text"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+            <h6 class="text-center pt-4">Link úteis</h6>
+            <ul class="px-1">
+              <li>
+                <i class="fa-regular fa-circle-question"></i> Ouvidoria do Banco
+                Central
+              </li>
+              <li>
+                <i class="fa-regular fa-phone"></i> 145 (seg - sex das 08h às
+                20h)
+              </li>
+              <li><i class="fa-solid fa-circle-info"></i> Sobre</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <div class="main">
+        <main class="content px-3 py-2">
+          <div class="container-fluid">
+            <div class="py-4">
+              <h2 class="text-light">Adminitração Corretora</h2>
+            </div>
+
+            <div class="row d-flex row-gap-1 pb-4">
+              <div class="col-lg-6 col-sm-12">
+                <div class="card bg-dark p-4 d-flex">
+                    <div class="card-title">
+                      <h4 class="title">Atenção!</h4>
+                    </div>
+                    <div class="card-body">
+                      <div class="row d-flex gap-2 flex-column">                      
+                      <div class="py-4 d-flex flex-column align-items-center gap-4 justify-content-between border-bottom">
+                          <div class="acao card bg-black bg-opacity-25 border-0 p-4">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center gap-3">
+                              <h3>Conecte sua carteira</h3>
+                              <div class="card col-8 d-flex flex-column justify-content-center align-items-center gap-1">
+                              <img src="./img/fingerprint.png" alt="Acesso Restrito" class="img-fluid">
+                              <p class="text-center">Para continuar é necessária uma carteira de Administrador.</p></div>
+                             </div>
+                          </div>
+                          <div class="botao">
+                              <button class="btn btn-small btn-block btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#ModalLive">Conectar</button>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                    
+                  </div>
+              </div>
+              <div class="col-lg-6 col-sm-12" id="collapseAlterar">
+                <div class="card bg-dark p-4 d-flex h-100">
+                    <div class="card-title">
+                        <h4 class="title">Cadastrar corretora</h4>
+                      </div>
+                      <div class="card-body">
+                        <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Código da Corretora">
+                        <label for="floatingInput">Código da Corretora</label>
+                        </div>
+                        <div class="input-group mb-3">
+                          <input type="file" class="form-control" id="inputGroupFile02">
+                          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                        </div>
+                        <div class="py-4 d-flex flex-row gap-4 border-top">
+                                <button class="btn btn-small btn-block btn-danger" type="button">Cancelar</button>
+                                <button class="btn btn-small btn-block btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#ModalLive">Salvar</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </main>
+        <footer class="footer p-3 align-self-baseline">
+          <div class="row">
+            <h6>TSR Oráculo - Direitos Reservados</h6>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

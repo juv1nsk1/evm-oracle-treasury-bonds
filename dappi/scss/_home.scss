@@ -13,7 +13,7 @@ body {
 #sidebar {
   max-width: $sidebar-width;
   min-width: $sidebar-width;
-  background: $neutrals-900;
+  background: $neutrals-700;
   transition: all 0.4s ease-in-out;
   // height: 100vh;
   .sidebar-item {
@@ -57,6 +57,9 @@ body {
     font-size: 0.625rem;
     letter-spacing: -0.3px;
     line-height: 0.525rem;
+  }
+  button{
+    color: $neutrals-600;
   }
 }
 
@@ -128,7 +131,6 @@ body {
       color: $primary;
     }
   }
-
   .text-isin {
     font-size: 14px;
     color: $neutrals-400;
