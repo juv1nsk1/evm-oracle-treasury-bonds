@@ -1,5 +1,5 @@
 # Propjeto Oráculo - Hackathon do Tesouro nacional
-## Equipe Vale das Araucárias
+### Equipe Vale das Araucárias
 
 ## Endereço do contrato: 0x39CF04D78A84758e52Df64FB3E682edA56dD3802
 https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802
@@ -9,7 +9,7 @@ https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802
 (Necessário utilizar Metamask & Sepolia)
 
 
-# Equipe:
+## Equipe:
 . Luciano Juvinski - Engenheiro de software
 
 . Eduardo Maceira - Analista de negócios 
