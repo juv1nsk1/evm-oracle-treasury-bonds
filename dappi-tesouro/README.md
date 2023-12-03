@@ -1,7 +1,7 @@
 # dApp Demo - Oráculo Tesouro
 
 
-## 1. Para acessar a dAppi é necessário adicionar a redeSepolia em sua Metamask
+## 1. Para acessar a dApp é necessário adicionar a redeSepolia em sua Metamask
 
 Network name: Sepolia
 
