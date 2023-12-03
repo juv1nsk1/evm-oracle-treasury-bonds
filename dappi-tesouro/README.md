@@ -1,4 +1,4 @@
-# dAppi Demo - Oráculo Tesouro
+# dApp Demo - Oráculo Tesouro
 
 
 ## 1. Para acessar a dAppi é necessário adicionar a redeSepolia em sua Metamask
