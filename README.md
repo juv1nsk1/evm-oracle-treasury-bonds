@@ -16,13 +16,16 @@ Código-fonte em solidity do do smart contract de Oráculo.
 ## Pasta: Integração 
 
 . Interface para contratos Solidity
+
 . Biblioteca pra integração com backend - Typescript
+
 . ABI para desenvolvimento de dApps
 
 # 3. Segurança e auditoria
 ## Pasta: Segurança
 
 . Bibliotecas utilizadas
+
 . Relatório de auditoria com Mythril
 
 # 4. Test
@@ -30,6 +33,7 @@ Código-fonte em solidity do do smart contract de Oráculo.
 ## Pasta: test
 
 . Relatório de testes dos sistemas
+
 . Remap de bibliotecas para utilização com a ferramenta de auditoria
 
 # 5. dAppi
