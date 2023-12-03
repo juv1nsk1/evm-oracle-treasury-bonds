@@ -1,7 +1,18 @@
 # Propjeto Oráculo - Hackathon do Tesouro nacional
 ## Equipe Vale das Araucárias
 
-https://inova.serpro.gov.br/hackathon-web3-stn
+## Endereço do contrato: 0x39CF04D78A84758e52Df64FB3E682edA56dD3802
+https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802
+
+## Endereço da dAppi Demo: https://alt500.com
+
+# Equipe:
+. Luciano Juvinski - Engenheiro de software
+
+. Eduardo Maceira - Analista de negócios 
+
+. Felipe Leite - Designer UX/UI
+
 
 # Como esse repositório está organizado:
 
@@ -46,12 +57,7 @@ Aplicação react para interação com o smart contract.
 
 Apresentação utilizada no Pitch.
 
-# Equipe:
-. Luciano Juvinski - Engenheiro de software
 
-. Eduardo Maceira - Analista de negócios 
-
-. Felipe Leite - Designer UX/UI
 
 
 ## Contribuições
