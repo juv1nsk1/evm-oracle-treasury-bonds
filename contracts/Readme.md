@@ -31,7 +31,7 @@ Ownable, ReentrancyGuard e Context
 
 ## Arquitetura do Contrato
 
-!(https://github.com/juv1nsk1/araucaria/blob/main/contracts/Arquitetura%20do%20Smart%20contract.png?raw=true)
+![Arquitetura](https://github.com/juv1nsk1/araucaria/blob/main/contracts/Arquitetura%20do%20Smart%20contract.png?raw=true)
 
 ## Como Usar
 
