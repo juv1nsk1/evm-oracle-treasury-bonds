@@ -52,9 +52,9 @@ Contém o código-fonte em solidity do smart contract de Oráculo.
 
 . Remap de bibliotecas para utilização com a ferramenta de auditoria
 
-# 5. dAppi
+# 5. dApp
 
-## Pasta: dappi-tesouro
+## Pasta: dapp-tesouro
 
 Aplicação react para interação com o smart contract.
 
