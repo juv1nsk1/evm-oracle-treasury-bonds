@@ -3,10 +3,10 @@
 ### Equipe Vale das Araucárias
 
 ## Endereço do contrato: 0x39CF04D78A84758e52Df64FB3E682edA56dD3802
-![Visualizar no Etherscam](https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802)
+[Visualizar no Etherscam](https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802)
 
 ## Endereço da dAppi Demo: 
-![Link para a dAppi](https://alt500.com) 
+[Link para a dAppi](https://alt500.com) 
 (Necessário utilizar Metamask & Sepolia)
 
 
