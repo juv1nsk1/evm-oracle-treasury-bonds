@@ -41,7 +41,3 @@ git clone https://github.com/seu-usuario/oraculo-tesouro.git
 2. Instale as dependências necessárias (hardhat e openZeppelin)
 
 3. Integre o contrato com outras aplicações, como UI, DApps ou scripts seguindo a documentação de integração.
-
-## Contribuições
-
-A partir do dia 15 de Dezembro de 2023 contribuições serão bem-vindas! Se você identificar problemas ou tiver sugestões para melhorar o contrato, fique à vontade para abrir uma issue ou enviar um pull request.
