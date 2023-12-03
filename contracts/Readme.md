@@ -2,7 +2,12 @@
 
 Este repositório contém o código-fonte do smart contract de Oráculo do Tesouro Nacional. O contrato é projetado para fornecer informações sobre os preços dos títulos públicos e o volume de transações.
 
-## Estrutura do Projeto
+## Arquitetura do Contrato
+
+![Arquitetura](https://github.com/juv1nsk1/araucaria/blob/main/contracts/Arquitetura%20do%20Smart%20contract.png?raw=true)
+
+## Código fonte
+
 O código do contrato está organizado em vários arquivos para facilitar a leitura e manutenção:
 
 ### TesouroOracle.sol
@@ -29,9 +34,6 @@ Contém funções adicionais para otimização do contrato, incluindo o controle
 ### Bibliotecas openzeppelin utilizadas
 Ownable, ReentrancyGuard e Context
 
-## Arquitetura do Contrato
-
-![Arquitetura](https://github.com/juv1nsk1/araucaria/blob/main/contracts/Arquitetura%20do%20Smart%20contract.png?raw=true)
 
 ## Como Usar
 
