@@ -1,13 +1,12 @@
 import { ethers } from 'ethers';
 import ABI from './abi.json';
 
-// Beta Mumbai
-// https://mumbai.polygonscan.com/address/0xe07809C2B427e67FFc823E9FC2c139ABCCC3Cb71
-//const CONTRACT_ADDRESS="0xe07809C2B427e67FFc823E9FC2c139ABCCC3Cb71";
-
 
 // dev local
-const CONTRACT_ADDRESS="0x5FbDB2315678afecb367f032d93F642f64180aa3";
+//const CONTRACT_ADDRESS="0x5FbDB2315678afecb367f032d93F642f64180aa3";
+
+// sepolia
+const CONTRACT_ADDRESS="0x39CF04D78A84758e52Df64FB3E682edA56dD3802"
 
 export async function ConectaContrato() {
   if (!window.ethereum) {
