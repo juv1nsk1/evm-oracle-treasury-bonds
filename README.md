@@ -1,11 +1,12 @@
-# Propjeto Oráculo - Hackathon do Tesouro nacional
+# Projeto Oráculo - Hackathon do Tesouro nacional
+
 ### Equipe Vale das Araucárias
 
 ## Endereço do contrato: 0x39CF04D78A84758e52Df64FB3E682edA56dD3802
-https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802
+![Visualizar no Etherscam](https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802)
 
 ## Endereço da dAppi Demo: 
-- https://alt500.com   
+![Link para a dAppi](https://alt500.com) 
 (Necessário utilizar Metamask & Sepolia)
 
 
@@ -17,21 +18,22 @@ https://sepolia.etherscan.io/address/0x39CF04D78A84758e52Df64FB3E682edA56dD3802
 . Felipe Leite - Designer UX/UI
 
 
-# Como esse repositório está organizado:
+# Organização do Repositório:
 
 # 1. Smart Contract do Oráculo 
 
 ## Pasta: contracts
 
-Código-fonte em solidity do do smart contract de Oráculo.
+Contém o código-fonte em solidity do smart contract de Oráculo.
+
 
 # 2. Integração e Interfaces
 
 ## Pasta: Integração 
 
-. Interface para contratos Solidity
+. Interface para contratos Solidity de terceiros interagirem com o Oráculo
 
-. Biblioteca pra integração com backend - Typescript
+. Biblioteca para integração de backend das corretoras em Typescript com o Oráculo
 
 . ABI para desenvolvimento de dApps
 
@@ -59,8 +61,6 @@ Aplicação react para interação com o smart contract.
 # 6. Apresentações
 
 Apresentação utilizada no Pitch.
-
-
 
 
 ## Contribuições
