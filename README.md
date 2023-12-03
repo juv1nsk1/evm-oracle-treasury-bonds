@@ -48,7 +48,9 @@ Apresentação utilizada no Pitch.
 
 # Equipe:
 . Luciano Juvinski - Engenheiro de software
+
 . Eduardo Maceira - Analista de negócios 
+
 . Felipe Leite - Designer UX/UI
 
 
