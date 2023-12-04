@@ -11,7 +11,7 @@
 
 
 ## Equipe:
-. Luciano Juvinski - Engenheiro de software
+. Luciano Juvinski (Líder) - Engenheiro de software
 
 . Eduardo Maceira - Analista de negócios 
 
