@@ -1,4 +1,4 @@
-# Projeto Oráculo - Hackathon do Tesouro nacional
+# Projeto TSR Oráculo - Hackathon do Tesouro nacional
 
 ### Equipe Vale das Araucárias
 
