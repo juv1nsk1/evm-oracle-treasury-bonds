@@ -1,4 +1,4 @@
-# Projetos para a integração com o Oráculo do Tesouro
+# Projetos para a integração com o TSR Oráculo
 
 ## Interface para contratos Solidity 
 
