@@ -64,7 +64,7 @@ Apresentação utilizada no Pitch.
 
 # 7. Identidade Visual
 
-A criação da Logo do Oráculo e desagn da dApp está disponível em nosso [Figma](https://www.figma.com/file/t4V2V6JoUl0Qdj8D26WE66/Hackathon-WEB3?type=design&node-id=164-2773&mode=design)
+A criação da Logo do Oráculo e design da dApp está disponível em nosso [Figma](https://www.figma.com/file/t4V2V6JoUl0Qdj8D26WE66/Hackathon-WEB3?type=design&node-id=164-2773&mode=design)
 
 ## Contribuições
 A partir do dia 15 de Dezembro de 2023 contribuições serão bem-vindas! Se você identificar problemas ou tiver sugestões para melhorar o contrato, fique à vontade para abrir uma issue ou enviar um pull request.
